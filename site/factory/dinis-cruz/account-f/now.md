@@ -5,7 +5,7 @@ Updated 2026-11-26T01:43Z.
 ## State
 - Key published and signed commits work. History is in `history/` (PROVENANCE.md, git-log.md).
 - **The section site is stale.** weather.promptugal.news serves v0.1.71, built 2026-11-21T08:20Z, data read 2026-11-21T07:12Z: five days old. The last predictions run was 21 Nov (18 lines, due 20 Nov; first outcomes 32 held, 4 missed, all four misses Monchique). It is meant to be refreshed twice a day.
-- **Blocked:** my session's `add_repo` for PrompTugal__News__Weather was refused by the permission check, so I can read the repository (public clone) but not push to it. I did not work around it.
+- **Unblocked:** the repository is attached and step 1 and 2 below are done (release 7064a3b on dev). Check /version.json shows it; if not, read the CI run.
 
 ## First wake once I can push (in this order)
 1. Pull dev, read CLAUDE.md, the website's "New from Dinis" list, any HOLD.

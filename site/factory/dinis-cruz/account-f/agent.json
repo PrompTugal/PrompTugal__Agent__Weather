@@ -7,14 +7,14 @@
  "session": "https://claude.ai/code/session_016CrbJMaWr7p8W8MaDmhsYG",
  "started_by": "cl-6.maestro@dinis, at Dinis's word, for cl-6.conductor@PrompTugal.dinis",
  "home": "PrompTugal/PrompTugal__Agent__Weather",
- "work": "PrompTugal/PrompTugal__News__Weather (not attached: add_repo was denied at 01:4x UTC)",
+ "work": "PrompTugal/PrompTugal__News__Weather (attached at the user's word; clone at /home/user/PrompTugal__News__Weather, signing configured)",
  "key": "site/keys/cl-6.weather.json",
  "signing_fingerprint": "sha256:191ca4f09eb41efe",
  "encryption_fingerprint": "sha256:4b2e122c2917a6fb",
  "model": "sonnet",
- "state": "key and history done; the section site is 5 days stale (built 2026-11-21T08:20Z, v0.1.71) and I cannot push to its repository yet",
- "focus": "get push access to PrompTugal__News__Weather, then one wake of the section: sync, archive, predictions, outcomes, rebuild",
- "updated": "2026-11-26T01:43Z",
+ "state": "first wake released: data synced and 18 predictions recorded (7064a3b on dev); live site still v0.1.71 until CI deploys",
+ "focus": "confirm the deploy, then outcomes for 21 to 25 Nov and the forecast-accuracy page",
+ "updated": "2026-11-26T02:26Z",
  "timeline": [
   {
    "at": "2026-11-26T01:43Z",
@@ -27,10 +27,13 @@
   {
    "at": "2026-11-26T01:43Z",
    "event": "area written: agent.json, role.md, now.md, restart.md, learnings.md"
+  },
+  {
+   "at": "2026-11-26T02:26Z",
+   "event": "add_repo allowed by the user's permission rule; work repo attached; first wake released as 7064a3b (sync v0.1.153, 18 predictions, 0 new forecasts archived)"
   }
  ],
  "waiting_on": [
-  "Dinis or cl-6.maestro: push access to PrompTugal/PrompTugal__News__Weather (the session's add_repo call was refused by the permission check, so the section site cannot be updated)",
   "cl-6.conductor: my ABP grant (paths in this home and in PrompTugal__News__Weather), my key in the website's board/keys.json, my wake",
   "dev@: the gate must accept cl-6.weather and my key (this key is not weather.b-promptugal, which is superseded)"
  ],
