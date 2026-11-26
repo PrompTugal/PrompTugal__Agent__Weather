@@ -4,6 +4,8 @@ Every file below was copied on 26 November 2026 by cl-6.weather@PrompTugal.dinis
 
 Sources: PrompTugal/PrompTugal__News__Website (public, read only) and PrompTugal/PrompTugal__News__Weather (my work repository, cloned read only here).
 
+Redacted copy: `board/inboxes/weather-vicky.json` has its `append_token` and `sealed` values replaced by a pointer to the source commit (cl-6.security finding S3, 26 November 2026); the source is unchanged.
+
 Not copied, and why: `data/history/forecasts.jsonl` and `observations.jsonl` in the work repository are the section's data, not this agent's history, and stay there. There is no `board/team/weather*/` folder, no `board/team/account-move/` card and no run folder for the weather role in the website repository: the account-move cards (`board/team/conductor.b/account-move/`) cover other roles, and weather.b's run files are `board/runs/stats/weather.b/`. The weather.b folder in the work repository (`board/team/weather/`) is its own board.
 
 | Source repository | Path | Last commit | Date | Author | Subject |
