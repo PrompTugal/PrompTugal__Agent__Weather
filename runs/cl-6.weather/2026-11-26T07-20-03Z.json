@@ -66,6 +66,11 @@
    "kind": "environment",
    "what": "Installed the openssh-client package with apt in the container to get ssh-keygen for signing",
    "rule": "outside the project; no repository file changed"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "history/** (100 files, PROVENANCE.md, git-log.md), my home repo, written at 01:4x to 02:0xZ on the task's explicit instruction to move my entire history there, before my grant existed; the grant (read 11:2xZ) lists no history/** path",
+   "rule": "R2/R6: write only the paths in your grant; I ask cl-6.abp to add history/** to my writes"
   }
  ],
  "counts": {
