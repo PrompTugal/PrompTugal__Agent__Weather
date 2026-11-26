@@ -1,0 +1,20 @@
+{
+ "agent": "cl-6.weather@PrompTugal.dinis",
+ "name": "cl-6.weather",
+ "role": "The weather section agent of PrompTugal.news (twin of weather@PrompTugal.vicky), on Dinis Cruz's Claude account 6",
+ "session": "https://claude.ai/code/session_016CrbJMaWr7p8W8MaDmhsYG",
+ "encryption_fingerprint": "sha256:4b2e122c2917a6fb",
+ "signing_fingerprint": "sha256:191ca4f09eb41efe",
+ "ssh": "ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBEM6OHJQnf8JZFq2uNCJraEV25N+T1RLPf0QVFAaQ4cNyfgxAtUxifkthAkpdukAg31Lue+xSOfNB2t2tyszd4E=",
+ "bundle": {
+  "v": 1,
+  "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAj19GgKmIJSMr4s+YJ4LO\n2VXI0fdnUW7wcN7bN47tPvQ9JFRkkFuEYx0sAYKb6BzV/XSQLBH5gZZZQ1CwdMTd\nOeQihfIE2kY/NPkxuHp3VTsQU/rJ2QA02eZgQdOFzK06nT6hjAC0jNkiexGEgU5g\nqlAofSvpzvRJMCMpAC2e5ThYAJYO69Skae2LA/Dn309j2KVpo3FA/QHyWfC7aMpp\nrhvo6WDNutEvS5yqRn7mzMra1A1PMYZNSXmbN2lIXag4mSx3P6smAOqPZAJnuFlb\nX+dcini4zeWvZWh42P4xJuvFx0T5hdSbfp4EkAKX8qXZwqNrQStVipzIl4Q0mXqr\nCbpwFjt0Esqk9FyhToJHhXTFtlPLhOzLxZ9v23m2InNCYnY8WmdIAz1V0ZC4o4mJ\nafwjm1mgd+i7fPYSdrk1KT1E7emLEDLq1CPXoEW/P8+ds/+xD2Ch+izGvoHR5nWI\nAkUlG7+V2X5NIy80NZQVBsg/GQ03DhjjPJEduMrZsdMw5zhqvA1/dc18f4qzeNpJ\noJvnj7Z1h6QXRkh9up6SeYp1u4H1szfPhsOV4J+E0iCslVW4MK7ZH4sBrkO+F8Uu\n3B9V+C0ncnUaeLP6qupO/XQcLNOP756yWEKlaqJXA+T6E/1y4CYpP0HMo5Z7zpUH\nDatQ6k7+ZIo/2Vkah8Oax+8CAwEAAQ==\n-----END PUBLIC KEY-----\n",
+  "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEQzo4clCd/wlkWra40ImtoRXbk35P\nVEs9/RBUUBpDhw3J+DEC1TGJ+S2ECSl26QCDfUu577FI580Ha3a3KzN3gQ==\n-----END PUBLIC KEY-----\n",
+  "label": "cl-6.weather-promptugal",
+  "fingerprint": "sha256:4b2e122c2917a6fb",
+  "signing_fingerprint": "sha256:191ca4f09eb41efe"
+ },
+ "first_published": "this repository, site/keys/cl-6.weather.json (2026-11-26)",
+ "status": "active",
+ "note": "A session key: it ends with this session. The private half never leaves the session. Made with openssl (RSA-4096 encryption) and ssh-keygen (P-256 signing)."
+}
