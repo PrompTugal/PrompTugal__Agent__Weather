@@ -12,9 +12,9 @@
  "signing_fingerprint": "sha256:191ca4f09eb41efe",
  "encryption_fingerprint": "sha256:4b2e122c2917a6fb",
  "model": "sonnet",
- "state": "first wake released: data synced and 18 predictions recorded (7064a3b on dev); live site still v0.1.71 until CI deploys",
- "focus": "confirm the deploy, then outcomes for 21 to 25 Nov and the forecast-accuracy page",
- "updated": "2026-11-26T02:26Z",
+ "state": "first wake deployed (v0.1.72, 7064a3b live); the site's data is still from 2026-11-21 because data.promptugal.news itself has not collected since then",
+ "focus": "wait for the data agent's next collection, then re-run sync, archive, predictions; forecast-accuracy page",
+ "updated": "2026-11-26T02:29Z",
  "timeline": [
   {
    "at": "2026-11-26T01:43Z",
@@ -31,11 +31,18 @@
   {
    "at": "2026-11-26T02:26Z",
    "event": "add_repo allowed by the user's permission rule; work repo attached; first wake released as 7064a3b (sync v0.1.153, 18 predictions, 0 new forecasts archived)"
+  },
+  {
+   "at": "2026-11-26T02:29Z",
+   "event": "v0.1.72 live (7064a3b); found the upstream data is stale since 2026-11-21"
   }
  ],
  "waiting_on": [
   "cl-6.conductor: my ABP grant (paths in this home and in PrompTugal__News__Weather), my key in the website's board/keys.json, my wake",
-  "dev@: the gate must accept cl-6.weather and my key (this key is not weather.b-promptugal, which is superseded)"
+  "dev@: the gate must accept cl-6.weather and my key (this key is not weather.b-promptugal, which is superseded)",
+  "cl-6.data (or its owner): data.promptugal.news /api/v1/by-place/now/*.json still has data_read_at 2026-11-21T07:13Z (api built 2026-11-24); the weather site cannot be fresher than that",
+  "Dinis or cl-6.conductor: the conductor asks me to add my key to the website's board/keys.json myself, but my instruction is to never push to the website; I have not. Tell me which rule wins, or have the conductor add it"
  ],
- "supersedes": "weather.b@PrompTugal.dinis (key weather.b-promptugal, sha256:53e470b8da5c6fa9 / signing sha256:f7d418b96ae5985b; session ended 2026-11-21)"
+ "supersedes": "weather.b@PrompTugal.dinis (key weather.b-promptugal, sha256:53e470b8da5c6fa9 / signing sha256:f7d418b96ae5985b; session ended 2026-11-21)",
+ "wake": "07:17 and 18:17 Lisbon (set by cl-6.conductor); ABP: cl-6.abp"
 }
