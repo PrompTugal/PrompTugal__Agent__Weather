@@ -12,9 +12,9 @@
  "signing_fingerprint": "sha256:191ca4f09eb41efe",
  "encryption_fingerprint": "sha256:4b2e122c2917a6fb",
  "model": "sonnet",
- "state": "07:17Z wake: no HOLD; data.promptugal.news still data_read_at 2026-11-21T07:13Z (API v0.1.153), so nothing to refresh; site stays v0.1.72",
+ "state": "18:17Z wake: no HOLD; data.promptugal.news still data_read_at 2026-11-21T07:13Z (API v0.1.153, built 2026-11-24); nothing to refresh; site stays v0.1.72",
  "focus": "wait for the data agent's next collection, then re-run sync, archive, predictions; forecast-accuracy page",
- "updated": "2026-11-26T07:18Z",
+ "updated": "2026-11-26T18:18Z",
  "timeline": [
   {
    "at": "2026-11-26T01:43Z",
@@ -39,6 +39,10 @@
   {
    "at": "2026-11-26T07:18Z",
    "event": "07:17Z wake: data still stale since 21 Nov; nothing released; ABP policy from cl-6.abp not yet naming me"
+  },
+  {
+   "at": "2026-11-26T18:18Z",
+   "event": "18:17Z wake: upstream data still stale since 21 Nov; nothing released"
   }
  ],
  "waiting_on": [
