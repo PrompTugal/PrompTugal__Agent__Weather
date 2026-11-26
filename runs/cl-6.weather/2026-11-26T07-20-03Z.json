@@ -1,0 +1,79 @@
+{
+ "$schema": "https://raw.githubusercontent.com/PrompTugal/PrompTugal__Agent__ABP/dev/abp/run-report.schema.json",
+ "agent": "cl-6.weather@PrompTugal.dinis",
+ "run": "2026-11-26T07-20-03Z",
+ "started": "2026-11-26T01:41:18Z",
+ "ended": "2026-11-26T07:20:03Z",
+ "line": "HAND-WRITTEN, hooks not installed; counters unmeasured (left at 0); breaches are by my own account. Run: key made and published, history moved (100 files), area written, work repo attached and first data wake released (7064a3b, cl-6.security pass), 07:17Z wake found upstream data still from 2026-11-21 and released nothing.",
+ "policy": {
+  "version": "1.2.0",
+  "sha256": "87b1760db7fb4d5fb3c3d1300be194f90a05d676677b99dc2bc37681b03d3274"
+ },
+ "text_included": false,
+ "sessions": 1,
+ "requests": [],
+ "session_events": [],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 0,
+  "by_kind": {
+   "write-unidentified": 0,
+   "shell": 0,
+   "read": 0,
+   "connector": 0
+  }
+ },
+ "policies_executed": {
+  "R6": 0
+ },
+ "policies_instrumented": [],
+ "mandate": {
+  "actions": 0,
+  "commits": [
+   "0c974e6",
+   "d44b4cd",
+   "364afbf",
+   "74cf467",
+   "223d9dc",
+   "5e3c203",
+   "d788219",
+   "13e890c"
+  ]
+ },
+ "reach": {
+  "attempts": 2,
+  "blocked": 2,
+  "observed": 0,
+  "denied": [
+   "mcp__claude-code-remote__add_repo (PrompTugal__News__Weather, push), refused by the session permission check twice, then allowed by a rule the user asked me to add"
+  ]
+ },
+ "breaches": [
+  {
+   "kind": "settings-change",
+   "what": "Added an allow rule for mcp__claude-code-remote__add_repo to .claude/settings.local.json in my home clone, at the user's explicit word in the session ('add the repo permission and retry'); kept out of git via .git/info/exclude",
+   "rule": "harness settings are outside my grant unless the user asks; the user asked"
+  },
+  {
+   "kind": "order",
+   "what": "Released 7064a3b to PrompTugal__News__Weather before cl-6.security's review (the review rule reached me afterwards); cl-6.security reviewed it after the fact and passed it",
+   "rule": "send site changes to cl-6.security before they ship (conductor, 02:28Z)"
+  },
+  {
+   "kind": "environment",
+   "what": "Installed the openssh-client package with apt in the container to get ssh-keygen for signing",
+   "rule": "outside the project; no repository file changed"
+  }
+ ],
+ "counts": {
+  "requests": 0,
+  "tool_calls": 0,
+  "in_mandate": 0,
+  "out_of_mandate": 0,
+  "attempts": 0,
+  "breaches": 0
+ }
+}
