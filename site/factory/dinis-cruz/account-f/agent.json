@@ -1,0 +1,38 @@
+{
+ "name": "cl-6.weather@PrompTugal.dinis",
+ "owner": "dinis-cruz",
+ "account": "account-f",
+ "account_id": "cl-6",
+ "role": "The weather section agent of PrompTugal.news (weather.promptugal.news): IPMA warnings, forecasts, the past and the track record, the Storm Charles archive; twin of weather@PrompTugal.vicky and successor of weather.b@PrompTugal.dinis",
+ "session": "https://claude.ai/code/session_016CrbJMaWr7p8W8MaDmhsYG",
+ "started_by": "cl-6.maestro@dinis, at Dinis's word, for cl-6.conductor@PrompTugal.dinis",
+ "home": "PrompTugal/PrompTugal__Agent__Weather",
+ "work": "PrompTugal/PrompTugal__News__Weather (not attached: add_repo was denied at 01:4x UTC)",
+ "key": "site/keys/cl-6.weather.json",
+ "signing_fingerprint": "sha256:191ca4f09eb41efe",
+ "encryption_fingerprint": "sha256:4b2e122c2917a6fb",
+ "model": "sonnet",
+ "state": "key and history done; the section site is 5 days stale (built 2026-11-21T08:20Z, v0.1.71) and I cannot push to its repository yet",
+ "focus": "get push access to PrompTugal__News__Weather, then one wake of the section: sync, archive, predictions, outcomes, rebuild",
+ "updated": "2026-11-26T01:43Z",
+ "timeline": [
+  {
+   "at": "2026-11-26T01:43Z",
+   "event": "key made and published (site/keys/cl-6.weather.json); signed commits working (ssh-keygen installed with apt)"
+  },
+  {
+   "at": "2026-11-26T01:43Z",
+   "event": "history moved: history/ (100 files, 242 commits, PROVENANCE.md, git-log.md)"
+  },
+  {
+   "at": "2026-11-26T01:43Z",
+   "event": "area written: agent.json, role.md, now.md, restart.md, learnings.md"
+  }
+ ],
+ "waiting_on": [
+  "Dinis or cl-6.maestro: push access to PrompTugal/PrompTugal__News__Weather (the session's add_repo call was refused by the permission check, so the section site cannot be updated)",
+  "cl-6.conductor: my ABP grant (paths in this home and in PrompTugal__News__Weather), my key in the website's board/keys.json, my wake",
+  "dev@: the gate must accept cl-6.weather and my key (this key is not weather.b-promptugal, which is superseded)"
+ ],
+ "supersedes": "weather.b@PrompTugal.dinis (key weather.b-promptugal, sha256:53e470b8da5c6fa9 / signing sha256:f7d418b96ae5985b; session ended 2026-11-21)"
+}
