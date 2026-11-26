@@ -1,0 +1,11 @@
+[
+ {
+  "id": "weather.b-promptugal",
+  "agent": "weather.b@PrompTugal.dinis",
+  "fingerprint": "sha256:53e470b8da5c6fa9",
+  "signing_fingerprint": "sha256:f7d418b96ae5985b",
+  "public_bundle": "team/keys/weather-b-promptugal.json",
+  "made": "2026-11-18T15:30Z",
+  "tool": "sgit-ai v0.27.0 (sgit pki keygen)"
+ }
+]
