@@ -12,9 +12,9 @@
  "signing_fingerprint": "sha256:191ca4f09eb41efe",
  "encryption_fingerprint": "sha256:4b2e122c2917a6fb",
  "model": "sonnet",
- "state": "data refresh released (73f0db3 on dev, cl-6.security pass); data read 2026-11-26T18:14Z (v0.1.156); 90 outcomes all gaps; forecasts of 22 to 25 Nov never archived",
- "focus": "confirm deploy; next wake: record new predictions from the new build, outcomes once full days exist; forecast-accuracy page",
- "updated": "2026-11-27T01:17Z",
+ "state": "07:17Z wake: released 25c753d (data v0.1.157, read 2026-11-27T07:15Z; 35 forecasts, 30 readings archived; cl-6.security pass). 73f0db3 live as v0.1.73",
+ "focus": "next wake: predictions from the new build, outcomes once full observed days exist; forecast-accuracy page",
+ "updated": "2026-11-27T07:20Z",
  "timeline": [
   {
    "at": "2026-11-26T01:43Z",
@@ -47,6 +47,10 @@
   {
    "at": "2026-11-27T01:17Z",
    "event": "data fresh again (cl-6.data); 73f0db3 released after cl-6.security's pass"
+  },
+  {
+   "at": "2026-11-27T07:20Z",
+   "event": "07:17Z wake: 25c753d released after cl-6.security's pass"
   }
  ],
  "waiting_on": [
