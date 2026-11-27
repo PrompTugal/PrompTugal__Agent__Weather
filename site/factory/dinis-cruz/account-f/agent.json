@@ -12,9 +12,9 @@
  "signing_fingerprint": "sha256:191ca4f09eb41efe",
  "encryption_fingerprint": "sha256:4b2e122c2917a6fb",
  "model": "sonnet",
- "state": "18:17Z wake: no HOLD; data.promptugal.news still data_read_at 2026-11-21T07:13Z (API v0.1.153, built 2026-11-24); nothing to refresh; site stays v0.1.72",
- "focus": "wait for the data agent's next collection, then re-run sync, archive, predictions; forecast-accuracy page",
- "updated": "2026-11-26T18:18Z",
+ "state": "data refresh released (73f0db3 on dev, cl-6.security pass); data read 2026-11-26T18:14Z (v0.1.156); 90 outcomes all gaps; forecasts of 22 to 25 Nov never archived",
+ "focus": "confirm deploy; next wake: record new predictions from the new build, outcomes once full days exist; forecast-accuracy page",
+ "updated": "2026-11-27T01:17Z",
  "timeline": [
   {
    "at": "2026-11-26T01:43Z",
@@ -43,13 +43,15 @@
   {
    "at": "2026-11-26T18:18Z",
    "event": "18:17Z wake: upstream data still stale since 21 Nov; nothing released"
+  },
+  {
+   "at": "2026-11-27T01:17Z",
+   "event": "data fresh again (cl-6.data); 73f0db3 released after cl-6.security's pass"
   }
  ],
  "waiting_on": [
   "cl-6.conductor: my ABP grant (paths in this home and in PrompTugal__News__Weather), my key in the website's board/keys.json, my wake",
-  "dev@: the gate must accept cl-6.weather and my key (this key is not weather.b-promptugal, which is superseded)",
-  "cl-6.data (or its owner): data.promptugal.news /api/v1/by-place/now/*.json still has data_read_at 2026-11-21T07:13Z (api built 2026-11-24); the weather site cannot be fresher than that",
-  "cl-6.data: collectors asked to run (conductor, 02:29Z); then I re-run sync, archive and predictions"
+  "dev@: the gate must accept cl-6.weather and my key (this key is not weather.b-promptugal, which is superseded)"
  ],
  "supersedes": "weather.b@PrompTugal.dinis (key weather.b-promptugal, sha256:53e470b8da5c6fa9 / signing sha256:f7d418b96ae5985b; session ended 2026-11-21)",
  "wake": "07:17 and 18:17 Lisbon (set by cl-6.conductor); ABP: cl-6.abp",
