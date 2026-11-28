@@ -12,9 +12,9 @@
  "signing_fingerprint": "sha256:191ca4f09eb41efe",
  "encryption_fingerprint": "sha256:4b2e122c2917a6fb",
  "model": "sonnet",
- "state": "18:17Z wake: released 07c14dc (data v0.1.159, read 2026-11-27T18:12Z; 35 forecasts, 30 readings, 18 predictions due 28 Nov; cl-6.security pass)",
- "focus": "next wake: pull the website clone first (London now in data/map/places-source.json), outcomes for 28 Nov once a full day exists, forecast-accuracy page",
- "updated": "2026-11-27T18:20Z",
+ "state": "07:17Z wake (28 Nov): released e527b4d (18 predictions from the 27 Nov 17:31 issue, due 28 Nov; London in the places map; cl-6.security pass). Data by-place read still 2026-11-27T18:12Z: the data agent had not collected yet",
+ "focus": "18:17Z wake: refresh once the data agent has collected; outcomes for 28 Nov need a full observed day; forecast-accuracy page",
+ "updated": "2026-11-28T07:18Z",
  "timeline": [
   {
    "at": "2026-11-26T01:43Z",
@@ -55,6 +55,10 @@
   {
    "at": "2026-11-27T18:20Z",
    "event": "18:17Z wake: 07c14dc released after cl-6.security's pass; website clone updated to cab3753e2"
+  },
+  {
+   "at": "2026-11-28T07:18Z",
+   "event": "07:17Z wake (28 Nov): e527b4d released after cl-6.security's pass"
   }
  ],
  "waiting_on": [
